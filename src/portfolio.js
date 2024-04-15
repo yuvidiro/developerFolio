@@ -20,13 +20,13 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Yuvaraj Geethavel",
+  title: "Hi all, I'm Yuvi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Creative Web Developer 🌟  in crafting immersive experiences through Three.js, WebGL, Unity, and Unreal Engine. Proficient in building 3D pipelines and harnessing the power of JavaScript, React, Angular, and C# , AFrame, webassembly and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1NJwh6st-b_0pjpxKXa8V0yTIZ7ytDRnr/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -42,21 +42,21 @@ const socialMediaLinks = {
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do 🔧",
+  subTitle: "🎨 Creative Developer Passionate About Visuals and Math-Infused Tech",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Craft immersive 3D games and simulations with cutting-edge technologies"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Dive into the world of Computer Vision, leveraging mathematical principles for innovative projects"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Seamlessly integrate visual elements and mathematical algorithms for dynamic user experiences"
     )
   ],
 
@@ -81,40 +81,40 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "c#",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Unity",
+      fontAwesomeClassname: "	fas fa-gamepad"
+    },
+    {
+      skillName: "WASM",
+      fontAwesomeClassname: "fab fa-windows"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Blender",
+      fontAwesomeClassname:  "fas fa-palette"
+    },
+    {
+      skillName: "After Effects",
+      fontAwesomeClassname: "fab fa-adn"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,24 +126,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "NIT ROURKELA",
+      logo: require("./assets/images/NIT_Rourkela_Colour_Logo.webp"),
+      subHeader: "Integrated M.Sc in Life Science",
+      desc: "Mentor, Cinematics Club",
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -157,12 +144,16 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "3D Pipeline",
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +165,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      role: "Senior Web Developer",
+      company: "KIXR",
+      companylogo: require("./assets/images/KIXR.png"),
+      date: "Feb 2023 – Present",
+      desc: "Worked on multiple projects ranging from various tracking AR projects to a shirt 3D configurator, a 2D drawing tool, and held the lead position on a huge scale real estate project.",
+      descBullets: [        
+        "My main R&D focuses: VSLAM + IMU integration for world tracking, and custom glTF mesh compression + KTX2 texture.",
+        "Worked on diverse AR tracking projects, spanning from world to shoe tracking, utilizing a range of tools including both open-source and third-party plugins."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Game Developer",
+      company: "Byjus",
+      companylogo: require("./assets/images/Byjus.webp"),
+      date: "Aug 2020 – Jan 2023",
+      desc: "Joined newly formed Byju's R&D team, 3D educational games for grades 6 to 8. In 2 years hustle, streamlined Unity WebGL pipeline, releasing 15+ games on BYJU's US App.",
+      descBullets: [
+        "Developed specialized controllers, from scratch, like car, flight, parkour, and customised third-person mechanics",
+        "Managed UI design ensuring cohesive experiences for kids and specific game needs as project scaled."
+      ]
     }
   ]
 };
@@ -206,38 +194,83 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: 
+  "My Projects 🖥️"
+  
+  
+  
+  
+  
+  ,
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Konig.webp"),
+      projectName: "Konig Orange County",
+      projectDesc: "As project lead, I've figured out the feasibility of rendering 4M triangles in web-based walkthroughs using Shapespark. I've automated the pipeline, minimizing developer intervention, solely relying on 3D artists for implementation  for future projects. And I'm in final stage of an independent of shapespark optimized pipeline for avatar integration.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://uidev.kiksar.com/demo_3dBuilding/exterior_day/index.html"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Reeds.webp"),
+      projectName: "Reeds Ring",
+      projectDesc: "I have developed a high-quality, optimized WebGL diamond shader utilizing WebGi. Additionally, the Virtual Try-On feature was implemented using hand tracking through the MediaPipe model.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://uidev.kiksar.com/RingVTO/index.html"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/angular.webp"),
+      projectName: "3D Configurator in Angular",
+      projectDesc: "I have worked on developing an innovative Angular 3D Configuration Component project. It provides unmatched customization options, enabling users to effortlessly customize and edit textures, setting a new standard for design flexibility.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.kixr3d.com/#/communityDesigns"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Freelancing.webp"),
+      projectName: "Freelancing Project",
+      projectDesc: "I collaborated with a team of friends to develop this game in Unity. My primary responsibilities included the bus controller, managing collisions, and integrating the connecting logic across all 27 levels. Unfortunately, I am unable to share the public link as the client has temporarily removed the game from the Play Store."
+    },
+    {
+      image: require("./assets/images/Save the City.webp"),
+      projectName: "Save the City",
+      projectDesc: "This educational game, developed within the Byju's platform using Unity, tasks children with saving the city by closing a smoking air tunnel before its spread. Throughout the gameplay, players are prompted to answer questions, enhancing their learning experience. And pardon me for glitches in the built, I only had old built to showcase and this project is made for mobile devices",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://side-scroller.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/AXE.webp"),
+      projectName: "AXE AR AD",
+      projectDesc: "I successfully simulated the functionality of surface tracking using raycasting and gyroscope techniques in A-Frame, without relying on any third-party AR plugins. This project was completed within a one-week timeframe and this project is made for mobile devices. Furthermore, I possess expertise in integrating image and location-based AR tracking. I have also worked with platforms such as 8th Wall and Blippar.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://uidev.kiksar.com/axe-portal/index.html"
+        }
+      ]
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -246,59 +279,28 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Courses 📚"),
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Computer Vision nanodegree in Udacity",
+      subtitle: "Learned various types of filters, CNN architectures, and the basics of pose estimation. Completed training and testing algorithms for face landmark points.",
+      image: require("./assets/images/Computer Vision.webp"),
       imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Threejs Journey by Bruno Simon",
+      subtitle: "I've gained proficiency in Three.js through a beginner-friendly course, covering WebGL basics and advanced techniques like particle rendering and physics integration. Now equipped with extensive expertise, I've handled complex 3D coding projects independently.",
+      image: require("./assets/images/Bruno Simon.webp"),
       imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Unity Parkour Controller",
+      subtitle: "I've learned advanced animation techniques like target matching for adaptable animations, and how to architect parkour actions in Unity using scriptable objects for data-driven flexibility",
+      image: require("./assets/images/Parkour.webp"),
       imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +326,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +345,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,22 +358,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91 7077109905",
+  email_address: "yuvarajvelraj@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
